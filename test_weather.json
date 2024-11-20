@@ -1,0 +1,50 @@
+{
+	"StatusCode": 200,
+	"message": {
+		"message": "Action recorded successfully",
+		"weather_data": {
+			"base": "stations",
+			"clouds": {
+				"all": 100
+			},
+			"cod": 200,
+			"coord": {
+				"lat": 36.7501,
+				"lon": 126.2961
+			},
+			"dt": 1732085823,
+			"id": 1835518,
+			"main": {
+				"feels_like": 283.37,
+				"grnd_level": 1019,
+				"humidity": 65,
+				"pressure": 1023,
+				"sea_level": 1023,
+				"temp": 284.48,
+				"temp_max": 284.48,
+				"temp_min": 284.48
+			},
+			"name": "Taian",
+			"sys": {
+				"country": "KR",
+				"sunrise": 1732054685,
+				"sunset": 1732090986
+			},
+			"timezone": 32400,
+			"visibility": 10000,
+			"weather": [
+				{
+					"description": "overcast clouds",
+					"icon": "04d",
+					"id": 804,
+					"main": "Clouds"
+				}
+			],
+			"wind": {
+				"deg": 286,
+				"gust": 5.3,
+				"speed": 3.36
+			}
+		}
+	}
+}
