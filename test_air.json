@@ -1,0 +1,30 @@
+{
+	"StatusCode": 200,
+	"message": {
+		"air_pollution_data": {
+			"coord": {
+				"lat": 36.7456,
+				"lon": 126.2979
+			},
+			"list": [
+				{
+					"components": {
+						"co": 337.12,
+						"nh3": 0.51,
+						"no": 1.15,
+						"no2": 8.65,
+						"o3": 90.84,
+						"pm10": 39.26,
+						"pm2_5": 21.42,
+						"so2": 7.75
+					},
+					"dt": 1732169326,
+					"main": {
+						"aqi": 2
+					}
+				}
+			]
+		},
+		"message": "Get air pollution info recorded successfully"
+	}
+}
